@@ -1,0 +1,171 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("../img/bg.jpg");
+	background-color:#000;
+}
+	
+#wrapper{
+	width: 900px;
+	margin: 0 auto;
+}
+	
+header{
+	background: #66a1d2;
+	background: -moz-linear-gradient(top, #66a1d2, #4f7dac);
+	padding: 2px 40px 30px;	
+}
+	
+.floatright{
+	float: right;
+	margin-top: -90px;
+	margin: -200;
+	clear: right;
+	position:absolute;
+	margin-left: 500px;
+}
+
+/* Navigation */
+#navi{
+	width: 500px;
+	margin: 0 auto;
+	background: #999;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+
+
+li.navi {
+	width: 100px;
+	background: transparent;
+	float: left;
+	list-style-type: none;
+	overflow: none;	
+	font-family: 'Julius Sans One';
+	font-weight:bold;
+	display:block; 
+	width:9em;
+	text-align: center;
+	border: 0px;
+}
+		 
+ul#b{
+	list-style-type: square;
+}
+
+/* Body */
+#main{
+	float: left;
+	opacity:0.8;
+	width: 520px;
+	height: 600px;
+	padding: 20px 40px 0px;
+	background: silver;
+	font-family: verdana;
+}
+
+/* Sidebar */
+aside{
+	background: #d9d9d9;
+	background: -moz-linear-gradient(top,  #a1a0a0,  #d9d9d9);
+	padding: 0px 0px 20px;
+	float: right;
+	width: 300px;
+	height: 600px;
+	font-family: verdana;
+	line-height:140%
+}
+
+/* Footer */	
+footer{
+	background: #66a1d2;
+	margin: 0px;
+	clear: both;
+	font-family: verdana;
+}
+
+/* Headers */
+h1{
+	margin: 0;
+	padding: 20px;
+	font-family: 'Kranky', cursive;
+	font-size: 40px;
+	text-shadow: 4px 4px 4px #646e95;
+}
+
+h2,h3{
+	font-family: 'Kranky', cursive;
+	text-shadow: 4px 4px 4px #7e7e7e;
+	padding: 20px 20px 0px;
+}
+
+/* Links */
+a:link{
+	color:#000000; 
+	background:transparent; 
+	text-decoration:none;
+}
+
+a:visited{ 
+	color:#000000; 
+	background:transparent; 
+	text-decoration:none; 
+}
+
+a:hover{ 
+	color: #ffffff; 
+	background:transparent; 
+	text-decoration: none;
+	border-bottom: 3px solid #fff; 
+}
+
+a:active{ 
+	color: #000000;
+	background: transparent; 
+	text-decoration: none; 
+} 
+
+/* Paragraphs */
+p{
+	padding: 5px 20px 0px;
+}
+	
+	
+/* COLUMNS */	
+p#col{
+	column: 100px;
+	-webkit-columns:100px 3;
+	-moz-columns:100px 3;
+	text-align: ;
+}
+	
+/* Gallery */	
+.thumbnail{
+	float: left;
+	width: 100px;
+	border: 1px solid #999;
+	margin: 0 15px 15px 0;
+	padding: 5px;
+}
+
+.clearboth { 
+	clear: both; 
+}
+
+/* BUTTON */
+ul#button{
+	padding: 0px;
+	margin: 0 70px 60px;
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	width: 150px;
+	color: #fff;
+	border: 2px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #036;
+	background: -moz-linear-gradient(top,   #66a1d2,  #345679);
+}
+
