@@ -10,32 +10,85 @@
 <body>
 	<div id="wrapper">
 
-<header>
-		<!-- Stuff -->
-		<h1>Ratz Need Love. . .</h1>
+	<header>
+			<!-- Stuff -->
+			<h1>Ratz Need Love. . .</h1>
 		
-		
-		<img class="floatright" src="img/ratlogo.png" width="220" height="170">
-		
-
-<nav>
-			<div class="navi">
-			<ul>
-				<li class="navi"><a href="index.html">Home</a></li>
-				<li class="navi"><a href="gal.html">Gallery</a></li>
-				<li class="navi"><a href="signup.html">Sign-Up</a></li>
-			</ul>
-			</div>
-
-</nav>	
-		
-</header>
-
-<section id="main">
+			<img id="rat" src="img/ratlogo.png" alt="Logo">
 			
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="signup.html">Sign-Up</a></li>
+				</ul>
+			</nav>	
+	</header>
+
+	<section id="main">
 			<h2>Join Our Mailing List!</h2>
-			<p>This is under contrustion.</p>
-		
+			
+				<table>
+					<tr>
+						<th>
+						WHY SHOULD YOU JOIN?
+						</th>
+					</tr>
+					<tr>
+						<td align="center">
+						Weekly updates from local members.
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+						Hundreds of adorable rat pictures!
+						</td>
+					</tr>
+										<tr>
+						<td align="center">
+						It's all free!
+						</td>
+					</tr>
+				</table>
+			
+			    
+
+
+			<p>		
+			    <form method="get" action="">
+			    	
+			    	<div>
+			    	    <label for="name_first">First Name</label>
+			    	    <input type="text" name="name_first" id="name_first"/>
+			    	</div>
+			    	<div>
+			    	    <label for="name_last">Last Name</label>
+			    	    <input type="text" name="name_last" id="name_last"/>
+			    	</div>
+			    	<div>
+			    	    <label for="email">Email</label>
+			    	    <input type="text" name="email" id="email"/>
+			    	</div>
+			    	<div>
+			    		<label for="owner_status">Owner Status</label>
+			    	</div>
+			    	<div>
+			    		<select name="owner_status" id="owner_status">
+			    			<option>Proud rat parent</option>
+			    			<option>Interested in rats</options>
+			    			<option>I feed them to my snake.</option>
+			    		</select>
+			    	</div>
+			    	<div>
+			    	    <label for="password">Password</label>
+			    	    <input type="password" name="password" id="password"/>
+			    	</div>
+			    	<div>
+			    		<input type="submit">
+			    	</div>
+			    	
+				</form>
+		</p>
 	</section>
 
 
@@ -43,7 +96,7 @@
 <aside>
 		<h3>Facts about Rats</h3>
 
-			<ul id="b">
+			<ul id="facts">
 				<li>Rats don't have thumbs.</li>
 				<li>Rats can eat chocolate.</li>
 				<li>A happy rat will chatter or grind its teeth.</li>
@@ -52,7 +105,9 @@
 			</ul>
 
 
-		<p>Visit <a href="http://www.petsmart.com">Petsmart</a> for all your rodent supplies!</p>
+		<div id="learnMore">
+			<a href="http://www.aspca.org/pet-care/small-pet-care/rat-care.aspx" target="_blank">LEARN MORE</a>
+		</div>
 </aside>
 
 			
